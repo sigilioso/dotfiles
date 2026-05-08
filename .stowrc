@@ -1,0 +1,2 @@
+-v # print what's being linked or unlinked
+--no-folding # always make direct file links not directory links
