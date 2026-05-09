@@ -6,12 +6,14 @@ Ubuntu:
 
 ```sh
 sudo apt install stow fish neovim git fzf bat ripgrep
+cargo install zoxide --locked
 ```
 
 Mac:
 
 ```sh
 brew install stow fish neovim git fzf bat ripgrep
+cargo install zoxide --locked
 ```
 
 Switch to fish shell (needs restart):
