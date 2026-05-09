@@ -1,5 +1,7 @@
 # vscode configuration folder
 .vscode
+# zed editor settigs
+.zed
 
 # Folder view configuration files
 .DS_Store
