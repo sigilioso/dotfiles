@@ -7,7 +7,7 @@
 	autoSetupRemote = true # requires at least git 2.37.1
 [alias]
     co = checkout
-    br = branch
+    br = branch --sort=-committerdate
     ci = commit
     st = status
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
