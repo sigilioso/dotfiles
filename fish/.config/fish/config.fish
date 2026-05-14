@@ -12,3 +12,8 @@ set -gx LANG "en_US.utf-8"
 if type -q zoxide
     zoxide init fish | source
 end
+
+# pure-fish prompt
+set -g pure_show_numbered_git_indicator true
+set -g pure_show_prefix_root_prompt true
+set -g pure_show_subsecond_command_duration true
