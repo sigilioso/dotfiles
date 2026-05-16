@@ -18,7 +18,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-scripts/taglist.vim'
 Plug 'plasticboy/vim-markdown'
 Plug 'kien/ctrlp.vim'
-Plug 'bling/vim-airline'
 
 call plug#end()
 " -------------- end plugins --------------
@@ -38,7 +37,6 @@ set tabstop=4
 set sw=4
 set expandtab
 set hidden
-set colorcolumn=100
 set mouse=a
 set showcmd
 set backspace=indent,eol,start "Make work backspace in insert mode in macos
@@ -104,9 +102,3 @@ nnoremap <leader>q :bp<CR>:bd #<CR>
 " Show trailing whitespaces
 hi TrailWhitespace ctermbg=blue guibg=blue
 match TrailWhitespace /\s\+$\| \+\ze\t/
-
-" airline stuff
-set laststatus=2 "show statusline even when not splitting
-let g:bufferline_echo = 0 "bufferline on top
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#buffer_nr_show = 1
